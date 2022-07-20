@@ -1,0 +1,43 @@
+.tech-sk {
+    height: 17rem;
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact-me {
+    height: 13rem;
+    width: 100%;
+    background-color: #40539e;
+    /* padding-top: .5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tag-line {
+    height: 4rem;
+    /* top: 2rem; */
+    color: rgb(154, 154, 250);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    padding-top: 2rem;
+}
+
+.media {
+    padding-top: 4rem;
+    width: 21rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media img {
+    width: 2.6rem;
+    /* background-color: white; */
+}

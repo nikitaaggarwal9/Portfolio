@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="front-img">
+            <img src="./media/page-1-edit-1.jpg">
+        </div>
+        <div class="info">
+            <h1 class="welcome">Hello Stranger! I'm</h1>
+            <!-- <br /> -->
+            <h1 class="name">Nikita Aggarwal</h1>
+            <h1 class="spin"></h1>
+            <br /><br />
+            <button class="dive">Discover More!</button>
+            <br /><br /><br />
+            <p>"When people design web pages, they often cater to the taste of the Google search algorithm, rather than
+                to the taste of any human being." </p>
+            <p class="noah">― Yuval Noah Harari,</p>
+            <p class="novel">21 Lessons for the 21st Century</p>
+            <p class="ps">PS: Don't worry Noah, I got both covered!</p>
+            
+            <!-- <br /><br /><br /><br /><br /> -->
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+        let diveSel = document.querySelector(".dive");
+        diveSel.addEventListener("click", (e) => {
+            location.assign("./main.html");
+        })
+    </script>
+</body>
+
+</html>

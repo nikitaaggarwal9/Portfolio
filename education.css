@@ -1,0 +1,213 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /* background-color: green; */
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-bar {
+    height: 3.2rem;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    background-color: #9dbdf6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+    /* margin: 0; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 1;
+}
+
+.logo {
+    height: 1.6rem;
+    width: 3.6rem;
+    /* text-align: center; */
+    display: flex;
+    /* background-image: url(""); */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration:wavy;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    background-color: #40539e;
+    border-radius: 1rem;
+    padding: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    width: 6.7rem;
+    margin-right: 1rem;
+    font-size: 1.15rem;
+    /* background-color: orange; */
+    display: inline-block;
+    text-align: center;
+    color: white;
+    /* font-weight: bold; */
+    /* text-decoration: underline; */
+    /* text-underline-offset: .4rem; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    /* text-underline-offset: .4rem; */
+    color: white;
+    background-color: #40539e;
+    padding: .5rem;
+    border-radius: 1rem;
+    /* border-color: 1px solid white; */
+}
+
+.nav-items span:hover {
+    cursor: pointer;
+    font-weight: bold;
+
+    /* color: rgb(224, 222, 222);*/
+} 
+
+.education {
+    height: 40rem;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.education div {
+    width: 30%;
+    height: 80%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.clg{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.clg h1{
+    position: relative;
+    bottom: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    /* position: flex-start; */
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
+}
+.education .uni {
+    margin-bottom: 2.5rem;
+}
+
+.clg h2{
+    position: relative;
+    bottom: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f27b8e;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+}
+.clg h3{
+    position: relative;
+    top: 0rem;
+    bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+}
+/* .clg:hover{
+    background-image: url(./media/kmv_logo.jpg);
+} */
+.imag{
+    
+}
+.sch{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* .sch:hover{
+    background-image: url(./media/wass_logo.png);
+} */
+
+.sch h1{
+    position: relative;
+    bottom: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    /* position: flex-start; */
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */  
+}
+
+.sch h2{
+    position: relative;
+    bottom: 4.7rem;
+    /* top:0rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #f27b8e;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+}
+.sch h3{
+    position: relative;
+    /* top: 0rem; */
+    bottom: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+}
+.education div img{
+    width: 100%;
+    background-color: red;
+}
