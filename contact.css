@@ -1,12 +1,35 @@
-.tech-sk {
-    height: 17rem;
-    width: 100%;
-    background-color: white;
-    border: 1px solid lightgray;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+.tech-animating-section {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.tech-animating-icons {
+    height: 30vh;
+    width: 100vw;
+    animation-name: tech-icons-animation;
+    animation-duration: 25s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tech-animating-icons > * {
+    display: block;
+    height: 20vh;
+    width: 10vw;
 }
 
+@keyframes tech-icons-animation {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(120vw);
+    }
+}
 .contact-me {
     height: 13rem;
     width: 100%;
@@ -39,5 +62,8 @@
 
 .media img {
     width: 2.6rem;
-    /* background-color: white; */
+}
+
+.media img:hover {
+    transform: scale(1.05);
 }
