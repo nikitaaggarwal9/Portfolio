@@ -15,13 +15,13 @@
     <div class="nav-bar">
         <div class="logo">N</div>
         <div class="nav-items">
-            <span class="edu active">Education</span>
-            <span class="projects">Projects</span>
-            <span class="skills">Tech Skills</span>
-            <span class="contact">Contact</span>
+            <a href="#sec-1"><span class="edu active">Education</span></a>
+            <a href="#sec-2"><span class="projects">Projects</span></a>
+            <a href="#sec-3"><span class="skills">Tech Skills</span></a>
+            <a href="#sec-4"><span class="contact">Contact</span></a>
         </div>
     </div>
-    <div class="education">
+    <div class="education" id="sec-1">
         <div class="clg">
             <h1 class="name">Keshav Mahavidyalaya</h1>
             <h1 class="uni">University of Delhi</h1>
@@ -58,7 +58,7 @@
     </div>
 
     <br /><br />
-    <div class="proj">
+    <div class="proj" id="sec-2">
 
         <div class="row 1">
             <div class="pro-1 pro">
@@ -180,7 +180,7 @@
     </div>
 
 
-    <div class="tech-animating-section">
+    <div class="tech-animating-section" id="sec-3">
         <div class="tech-animating-icons">
             <img src="./media/html.png">
             <img src="./media/css.png">
@@ -193,7 +193,7 @@
     </div>
 
 
-    <div class="contact-me">
+    <div class="contact-me" id="sec-4">
         <div class="media">
             <div class="leetcode"><a href="https://leetcode.com/nikitaaggarwal9/" target="_blank"
                     rel="noopener noreferrer"><img src="./media/leetcode.png" alt=""></a></div>
@@ -216,3 +216,7 @@
 </body>
 
 </html>
+
+<!-- We have the memory address of the array that is pointing towards the index 0. And using that address we can access the other index' s address which will be (address of 0th index + index  * size of one element) where size of one element is 4bytes. 
+
+And this takes constant time as we don't need to iterate over the array. -->
