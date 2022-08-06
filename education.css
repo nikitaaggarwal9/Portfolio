@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    text-decoration:wavy;
+    text-decoration: wavy;
     font-size: 2.1rem;
     font-weight: bold;
     color: white;
@@ -80,7 +80,7 @@ span {
     font-weight: bold;
 
     /* color: rgb(224, 222, 222);*/
-} 
+}
 
 .education {
     height: 40rem;
@@ -100,19 +100,20 @@ span {
     justify-content: flex-end;
     align-items: center;
 }
-.clg{
+
+.clg {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
-.clg h1{
+.clg h1 {
     position: relative;
     bottom: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.6rem;
     /* position: flex-start; */
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
@@ -120,44 +121,46 @@ span {
 
 
 }
+
 .education .uni {
     margin-bottom: 2.5rem;
 }
 
-.clg h2{
+.clg h2 {
     position: relative;
     bottom: 2rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.4rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #f27b8e;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    
+
 }
-.clg h3{
+
+.clg h3 {
     position: relative;
     top: 0rem;
     bottom: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.4rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: gray;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    
+
 }
+
 /* .clg:hover{
     background-image: url(./media/kmv_logo.jpg);
 } */
-.imag{
-    
-}
-.sch{
+.imag {}
+
+.sch {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -165,49 +168,51 @@ span {
     background-image: url(./media/wass_logo.png);
 } */
 
-.sch h1{
+.sch h1 {
     position: relative;
     bottom: 5rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.6rem;
     /* position: flex-start; */
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */  
+    -webkit-text-fill-color: transparent; */
 }
 
-.sch h2{
+.sch h2 {
     position: relative;
     bottom: 4.7rem;
     /* top:0rem; */
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.4rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #f27b8e;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    
+
 }
-.sch h3{
+
+.sch h3 {
     position: relative;
     /* top: 0rem; */
     bottom: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.4rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: gray;
     /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    
+
 }
-.education div img{
+
+.education div img {
     width: 100%;
     background-color: white;
 }
@@ -227,21 +232,21 @@ span {
         /* position: sticky; */
         top: 0;
         /* margin: 0; */
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: .2rem;
+        padding-right: .2rem;
         z-index: 1;
     }
 
     .logo {
         height: 1.2rem;
-        width: 3rem;
+        width: 2rem;
         /* text-align: center; */
         display: flex;
         /* background-image: url(""); */
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        text-decoration:wavy;
+        text-decoration: wavy;
         font-size: 1.6rem;
         font-weight: bold;
         color: white;
@@ -251,9 +256,9 @@ span {
         padding: .2rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     span {
-        width: 6.7rem;
+        width: 5.2rem;
         margin-right: 0rem;
         font-size: 1rem;
         /* background-color: orange; */
@@ -265,37 +270,157 @@ span {
         /* text-underline-offset: .4rem; */
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     .active {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: bold;
         /* text-decoration: underline; */
         /* text-underline-offset: .4rem; */
         color: white;
         background-color: #40539e;
-        padding: .5rem;
-        border-radius: 1rem;
+        padding: .3rem;
+        border-radius: .7rem;
         /* border-color: 1px solid white; */
     }
 
-
     .education {
-        height: 80rem;
+        height: 75rem;
         /* background-color: orange; */
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .education div {
-        width: 100%;
-        height: 90%;
+        width: 90%;
+        height: 30%;
         /* background-color: pink; */
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
-}    
+
+
+    .clg h1 {
+        position: relative;
+        bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        /* position: flex-start; */
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
+    }
+
+    .education .uni {
+        margin-bottom: 1.3rem;
+    }
+
+    .clg h2 {
+        position: relative;
+        bottom: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f27b8e;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    }
+
+    .clg h3 {
+        position: relative;
+        top: 0rem;
+        bottom: 0rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    }
+
+    /* .clg:hover{
+    background-image: url(./media/kmv_logo.jpg);
+} */
+    .education .imag{
+        height: 24%;
+        width: 85%;
+        /* border: 1px solid pink;
+        background-color: black; */
+    }
+    .education .imag img{
+        width: 80%;
+        /* border: 1px solid pink; */
+    }
+
+    .sch {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    /* .sch:hover{
+    background-image: url(./media/wass_logo.png);
+} */
+
+    .sch h1 {
+        position: relative;
+        bottom: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        /* position: flex-start; */
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    }
+
+    .sch h2 {
+        position: relative;
+        bottom: 2rem;
+        /* top:0rem; */
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f27b8e;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    }
+
+    .sch h3 {
+        position: relative;
+        /* top: 0rem; */
+        bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        /* background: -webkit-repeating-linear-gradient(#fccfd6, #b92a46, #f27b8e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    }
+
+    .education div img {
+        width: 100%;
+        background-color: white;
+    }
+}
