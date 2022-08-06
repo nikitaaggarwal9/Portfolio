@@ -121,3 +121,42 @@ p {
     box-shadow: .6rem .6rem .6rem lightgray;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        /* height: 100%; */
+        width: 100%;
+        background-color: #fcfcfc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+    .info {
+        /* height: 100%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+
+    .front-img {
+        /* height: 100%; */
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        /* border: 1px solid black; */
+    }
+    .front-img img {
+        /* height: 100%; */
+        width: 80%;
+        /* background-color: red; */
+    }
+}
