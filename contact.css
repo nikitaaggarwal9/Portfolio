@@ -8,7 +8,7 @@
     height: 30vh;
     width: 100vw;
     animation-name: tech-icons-animation;
-    animation-duration: 25s;
+    animation-duration: 21s;
     animation-fill-mode: both;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
@@ -66,4 +66,40 @@
 
 .media img:hover {
     transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .tech-animating-icons > * {
+        display: block;
+        height: 15vh;
+        width: 30vw;
+    }
+
+    @keyframes tech-icons-animation {
+        from {
+            transform: translateX(0%);
+        }
+        to {
+            transform: translateX(100%);
+        }
+    }
+
+    .media {
+        padding-top: 5rem;
+        width: 17rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .media img {
+        width: 2.3rem;
+    }
+
+    .tag-line {
+        font-size: .9rem;
+    }
+
 }
