@@ -192,9 +192,16 @@ p {
         /* background-color: red; */
     }
 
+    .dive {
+        height: 4rem;
+        width: 15rem;
+        font-size: 1.32rem;
+        border-radius: 1rem;
+    }
+
     p {
         width: 93%;
-       font-size: 1.2rem;
+       font-size: 1.1rem;
        color: gray;
        text-align: center;
        font-style: italic;
@@ -207,5 +214,9 @@ p {
     }
     .novel {
         margin-top: 0;
+    }
+
+    .ps{
+        margin-bottom: 2rem;
     }
 }
